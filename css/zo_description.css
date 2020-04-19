@@ -1,0 +1,45 @@
+p {
+    color: rgb(211, 55, 216);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    /*hacer negrita la letra*/
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+
+/*1. EL SELECTOR UNIVERSAL */
+
+
+/*
+* {
+    color: cornflowerblue;
+    margin: 10px;
+    padding: 5px;
+    border: solid black 2px;
+}*/
+
+
+/*2. todas la etiquetas con comas (,)*/
+
+
+/*h1, h2, h3, h4{
+
+ }*/
+
+
+/*3. SELECTOR DESCENDENTE aplicar a todos los descendentes de article que tengan p*/
+
+article p {
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+}
+
+
+/*4. AL padre que tenga como hijo solo a esa etiqueta ejemplo*/
+
+
+/*article > p {
+
+} */
