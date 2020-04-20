@@ -26,16 +26,19 @@ sintaxis por clase*/
 /* cajas floantes video 13-04-2020 minuto 48:33*/
 
 
-/*li {
+/*
+li {
     padding: 10px 30px 30px 60px;
     background-color: pink;
     /*position: relative;
     right: 100px;*/
 
 
-}
-*/
+/*}*/
+
+
 /* 3. Selectores de ID */
+
 #other_destacado {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(194, 34, 34);
@@ -43,6 +46,7 @@ sintaxis por clase*/
     margin: 70px;
     padding: 400px, 60px;
 }
+
 body {
     background-image: url(../imagenes/logotipo.jpg);
     background-repeat: no-repeat;
@@ -51,7 +55,9 @@ body {
     background-size: cover;
 }
 
+
 /*utlzia todo el ancho de la imagen de la caja*/
+
 
 /*.test_image {
     background-repeat: no-repeat;
@@ -59,6 +65,7 @@ body {
     height: 100%;
     background-size: 100% 10%;
 }*/
+
 .test_image {
     background-repeat: no-repeat;
     padding: 50px 70px;
@@ -67,23 +74,33 @@ body {
     background-size: cover;
     background-attachment: fixed;
     /*background-size: 100% 10%;*/
-    
     background-color: snow;
+    /*display: block;*/
+    /*overflow: hidden;*/
+    /*z-index: auto; esta propiedad me permite que elemento tiene qu estar por 
+    arriba y por abajo cero 0 elemento mas bajo ambos elementos tiene que estar
+    con position*/
 }
 
+
 /*para todas las (p) un estilo especifico */
+
 
 /*p#other_destacado{
 
  }*/
 
+
 /*4. Selectores en cascada una etiqueta que este en clase especial dentro de aviso*/
+
 
 /*.especial .aviso{
 
 }*/
 
+
 /*para el footer no se sobre monte*/
+
 footer {
     clear: both;
 }
