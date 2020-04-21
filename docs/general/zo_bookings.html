@@ -14,6 +14,13 @@
     Tematica: Zoologico
     -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../../css/zo1_booking.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Kaushan+Script&display=swap" rel="stylesheet">
 
 </head>
 
@@ -21,37 +28,63 @@
         HTML5 con la siguente semantica
 -->
 
-<body>
+<body class="body_todo">
     <!-- 5. Este es el logo de todas las paginas en
          la etiqueta header -->
     <header>
-        <a href="../../index.html"><img src="../../imagenes/logotipo.jpg" alt="Logotipo" width="900" height="400" /></a>
-        <h1 id="menu">Menu Principal</h1>
+        <aside class="size_aside">
+            <img class="header_img" src="../../imagenes/imgs_booking/pho1.png" />
+            <input class="inp_text" type="text" size="96">
+
+            <blockquote class="iconos">
+                <img class="iconos" src="../../imagenes/imgs_booking/usuario.png" alt="user">
+                <p>User</p>
+            </blockquote>
+
+            <blockquote class="iconos">
+                <img class="iconos" src="../../imagenes/imgs_booking/message.png" alt="message">
+                <p>message</p>
+            </blockquote>
+
+            <blockquote class="iconos">
+                <img class="iconos" src="../../imagenes/imgs_booking/about.png" alt="about">
+                <p>About</p>
+            </blockquote>
+        </aside>
+
     </header>
+    <!--
+    <header>
+        <a href="../../index.html"><img class="logotipo_cab" src="../../imagenes/logotipo.jpg" alt="Logotipo" width="900" height="400" /></a>
+        <h1 id="menu">Menu Principal</h1>
+    </header> 
+    -->
+
 
     <!-- Agregar la navegacion en el archivo index.html-->
     <!-- 2. Estructura de como esta ubicado en las carpetas-->
 
     <!--3. Todas las painas deben tener un menu de navegacion tanto principal como secundarias -->
     <nav>
-        <ul>
-            <li><a href="../../index.html">Pragina Prinipal</a></li>
-            <li>
-                <a href="zo_location.html">Ubicacion</a></li>
-            <li>
-                <a href="zo_description.html">Animales Salvajes</a></li>
-            <li>
-                <a href="zo_contact.html">Contactanos</a></li>
-            <li>
-                <a href="zo_sabias.html">Sabias Que</a></li>
-            <li>
-                <a href="zo_description_aqua.html">Animlaes Aquarium</a></li>
-            <li>
-                <a href="zo_events.html">Eventos & Actividades</a></li>
-            <li>
-                <a href="zo_bookings.html">Reservas</a></li>
-            <li>
-                <a href="zo_about.html">About Zoo</a></li>
+        <ul class="uno_lis_men">
+            <li class="ele_menu ">
+                <a class="ele_a_menu " href="../../index.html">Pragina Prinipal</a></li>
+            <li class="ele_menu ">
+                <a class="ele_a_menu " href="zo_location.html">Ubicacion</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_description.html">Animales Salvajes</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu" href="zo_contact.html">Contactanos</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_sabias.html">Sabias Que</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_description_aqua.html">Animlaes Aquarium</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_events.html">Eventos & Actividades</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_bookings.html">Reservas</a></li>
+            <li class="ele_menu">
+                <a class="ele_a_menu " href="zo_about.html">About Zoo</a></li>
         </ul>
     </nav>
 
@@ -60,25 +93,31 @@
          7.1.   2 section 
          7.2    2 aside
          7.3    2 article-->
+    <aside id="5">
+        <h3 id="nave1" id="nav_izq" class="nav_text">Navegacion entre las secciones</h3>
 
-    <h3 id="nave1">Navegacion entre las secciones</h3>
-    <ol>
-        <li>
-            <a href="#agen1">Agenta tu Visita</a>
-        </li>
-        <li>
-            <a href="#agen2">Agenta Ya</a>
-        </li>
-    </ol>
+        <ol id="ol_nav_iz">
+            <li>
+                <a href="#agen1">Agenta tu Visita</a>
+            </li>
+            <li>
+                <a href="#agen2">Agenta Ya</a>
+            </li>
+        </ol>
+    </aside>
 
-    <section>
+
+
+    <section id="section_1" class="add_scroll">
+
         <header>
             <h3 id="agen1">Has tu reserva Fecha y Hora</h3>
         </header>
+
         <article>
             <h2>Conoce como Agendar</h2>
 
-            <img src="../../imagenes/imgs_booking/photo2.jpg" alt="Locations" width="500" />
+            <img id="pho1" src="../../imagenes/imgs_booking/photo2.jpg" alt="Locations" width="500" />
 
             <p><strong> Puedes verificar cuando visitar ciertas especies </strong> you can visit and enjoy each place that we offert you, with place that you have never seen, so you have to visit inspite of corona virus !!!
             </p>
@@ -114,13 +153,13 @@
     </section>
 
     <!-- 2do Section   -->
-    <section>
+    <section id="section_2" class="add_scroll style_bac">
         <header>
             <h3 id="agen2">Te Gusataria Mesclar Visitas ?</h3>
         </header>
         <article>
             <h2>Ofrecemos Servicio de Hoteleria</h2>
-            <img src="../../imagenes/imgs_booking/photo4.jpg" alt="img1 " />
+            <img id="pho1" src="../../imagenes/imgs_booking/photo4.jpg" alt="img1 " />
             <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus nobis
                 magnam repudiandae recusandae nulla aspernatur!
             </p>
@@ -155,9 +194,26 @@
         6.4. Utlizar Etiqueta telefono de manera internacional
         6.5. Utilizar Caracter mas leyenda Todos derechos reservados-->
     <footer>
-        <span>John Henry Chiqui Coraizaca-Asce &nbsp; &#8226; Development Team & Giro &#8226;</span>
-        <a href="mailto:johnhenrychiqui@gmail.com">johnhenrychiqui@gmail.com</a>
-        <a href="tel:+593999922692">(+593) 099-992-2692</a> &#169;Todos los Derechos Reservados &#169;Todos los Derechos Reservados
+        <div class="size_aside_foo">
+            <blockquote>
+                <img class="img_g" src="../../imagenes/imgs_booking/face.png" />
+                <img class="img_g" src="../../imagenes/imgs_booking/wpp.png" />
+                <img class="img_brain" src="../../imagenes/imgs_booking/brain.png" />
+            </blockquote>
+        </div>
+
+        <div class="size_aside_foo">
+            <span>John Henry Chiqui Coraizaca-Asce &nbsp; &#8226; Development Team & Giro &#8226;</span>
+            <br>
+            <a href="mailto:johnhenrychiqui@gmail.com">johnhenrychiqui@gmail.com</a>
+            <br>
+            <a href="tel:+593999922692">(+593) 099-992-2692</a> &#169;Todos los Derechos Reservados &#169;Todos los Derechos Reservados
+        </div>
+
+        <div class="size_aside_foo">
+
+        </div>
+
     </footer>
 
 </body>
