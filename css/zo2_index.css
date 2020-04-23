@@ -304,3 +304,12 @@ footer {
     position: relative;
     text-align: center;
 }
+
+h2,
+h3 {
+    font-family: 'Comic Neue', cursive;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+}
