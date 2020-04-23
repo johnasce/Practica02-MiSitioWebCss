@@ -220,3 +220,87 @@ footer {
     text-size-adjust: initial;
     text-align: center;
 }
+
+
+/* 7. imganes */
+
+.div_prin {
+    width: 100%;
+    height: 150px;
+    padding: 2%;
+    margin: 0%;
+    background-color: #C5CAE9;
+}
+
+.div_secund {
+    width: 20%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+
+.div_sec_im_size {
+    width: 98%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+    display: block;
+}
+
+footer {
+    clear: both;
+}
+
+
+/* 8. para el footer*/
+
+.div_foo {
+    width: 100%;
+    height: 90px;
+    padding: 4%;
+    margin-top: 3%;
+    background-color: #FFE0B2;
+}
+
+.div_foo_sec {
+    width: 25%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.div_botons {
+    width: 50%;
+    height: 30%;
+    float: left;
+    display: inline;
+}
+
+.imgs_botns_size {
+    display: inline;
+    width: 15%;
+    height: 80%;
+    /*margin: 0%;*/
+    padding: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div_yout {
+    width: 100%;
+    height: 80%;
+}
+
+.img_you {
+    display: inline;
+    width: 60%;
+    height: 90%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    text-align: center;
+}
