@@ -1,0 +1,222 @@
+/* 1. Todo el bodu */
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #558B2F;
+}
+
+
+/* 2. Cabecera */
+
+.header_dimen {
+    width: 100%;
+    height: 15%;
+    background-color: #DCE775;
+}
+
+.div_1 {
+    width: 100%;
+    height: 15%;
+    background-color: #558B2F;
+}
+
+.div_1_p1 {
+    width: 30%;
+    height: 15%;
+    float: left;
+    text-align: center;
+}
+
+.img_p1 {
+    width: 40%;
+    height: 15%;
+}
+
+.div_1_inp {
+    width: 40%;
+    height: 15%;
+    float: left;
+    text-align: center;
+}
+
+.div_inp_size {
+    width: 90%;
+    margin-top: 20%;
+}
+
+.div_1_con {
+    width: 26%;
+    height: 15%;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #DCE775;
+}
+
+.iconos {
+    width: 42%;
+    margin-top: 18%;
+}
+
+
+/* 3. Menu*/
+
+aside {
+    clear: both;
+}
+
+#menu {
+    width: 98%;
+    height: 10%;
+    margin: 0%;
+    padding: 1% 1% 1% 1%;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #DCE775;
+}
+
+#lista_desordenada {
+    display: block;
+    list-style: none;
+    overflow: hidden;
+}
+
+aside#menu nav ul#lista_desordenada li {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+aside#menu nav ul#lista_desordenada li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 1px 2px 2px 2px;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+aside#menu nav ul#lista_desordenada li a:hover {
+    background-color: #4CAF50;
+    /*color: rgb(34, 86, 146);*/
+    color: black;
+}
+
+
+/* 4 ha dos columnas */
+
+.div_principal {
+    width: 100%;
+    height: 600px;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #DCE775;
+    padding: 2% 1% 2% 1%;
+    margin-right: 3%;
+}
+
+.div_secundarios {
+    width: 47%;
+    height: 98%;
+    float: left;
+    /*border: solid rgb(42, 175, 46) 2px;*/
+    border-radius: 20px;
+    background-color: #A5D6A7;
+    padding: 1%;
+}
+
+.div_vacio {
+    width: 2%;
+    height: 97%;
+    float: left;
+}
+
+.section_colum1 {
+    width: 100%;
+    height: 100%;
+}
+
+.add_scroll {
+    overflow-x: scroll;
+    width: 100%;
+    height: 100%;
+    scrollbar-color: purple;
+    border-radius: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+
+/* 5. division de iamgenes */
+
+.div_logitos {
+    width: 100%;
+    height: 160px;
+    margin: 0%;
+    padding: 2%;
+    background-color: #B2EBF2;
+}
+
+.div_titulo {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.div_log_container {
+    width: 100%;
+    height: 100px;
+}
+
+.div_cad_imagen {
+    width: 12.5%;
+    height: 80%;
+    padding: 2%;
+    float: left;
+}
+
+.div_cada_img_size {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* 6  Agregar foto y contenido*/
+
+.div_rate {
+    width: 100%;
+    height: 150px;
+    padding: 2%;
+    margin: 0%;
+}
+
+.div_rate_img {
+    width: 28%;
+    height: 80%;
+    float: left;
+    text-align: center;
+}
+
+.div_rate_text {
+    width: 68%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.size_text {
+    text-size-adjust: initial;
+    text-align: center;
+}
