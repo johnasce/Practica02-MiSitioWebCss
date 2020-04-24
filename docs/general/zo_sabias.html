@@ -15,6 +15,17 @@
     -->
     <meta charset="UTF-8" />
 
+    <link type="text/css" rel="stylesheet" href="../../css/zo6_sabias.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BangersKaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
 </head>
 
 <!--4.  Todas las paginas deberan usar la siguente estructura usando una estructura
@@ -24,129 +35,156 @@
 <body>
     <!-- 5. Este es el logo de todas las paginas en
          la etiqueta header -->
-    <header>
-        <a href="../../index.html"><img src="../../imagenes/logotipo.jpg" alt="Logotipo" width="900" height="400" /></a>
-        <h1 id="menu">Menu Principal</h1>
+    <header class="header_dimen">
+        <div class="div_1">
+
+            <div class="div_1_p1">
+                <a href="../../index.html"><img class="img_p1" src="../../imagenes/p1.png" alt="logito"></a>
+            </div>
+
+            <div class="div_1_inp">
+                <input class="div_inp_size div_1_inp" />
+            </div>
+
+            <div class="div_1_con">
+                <div class="div_1_p1">
+                    <img class="iconos" src="/imagenes/imgs_booking/usuario.png" alt="Usuario">
+                    <p>User</p>
+                </div>
+                <div class="div_1_p1">
+                    <img class="iconos" src="/imagenes/imgs_booking/message.png" alt="Message">
+                    <p>Messages</p>
+                </div>
+                <div class="div_1_p1">
+                    <img class="iconos" src="/imagenes/imgs_booking/about.png" alt="About">
+                    <p>About</p>
+                </div>
+            </div>
+
+        </div>
     </header>
 
-    <!-- Agregar la navegacion en el archivo index.html-->
-    <!-- 2. Estructura de como esta ubicado en las carpetas-->
-
-    <!--3. Todas las painas deben tener un menu de navegacion tanto principal como secundarias -->
-    <nav>
-        <ul>
-            <li><a href="../../index.html">Pragina Prinipal</a></li>
-            <li>
-                <a href="zo_location.html">Ubicacion</a></li>
-            <li>
-                <a href="zo_description.html">Animales Salvajes</a></li>
-            <li>
-                <a href="zo_contact.html">Contactanos</a></li>
-            <li>
-                <a href="zo_sabias.html">Sabias Que</a></li>
-            <li>
-                <a href="zo_description_aqua.html">Animlaes Aquarium</a></li>
-            <li>
-                <a href="zo_events.html">Eventos & Actividades</a></li>
-            <li>
-                <a href="zo_bookings.html">Reservas</a></li>
-            <li>
-                <a href="zo_about.html">About Zoo</a></li>
-        </ul>
-    </nav>
-
+    <aside id="menu">
+        <nav>
+            <ul id="lista_desordenada">
+                <li>
+                    <a href="../../docs/general/zo_about.html">About Zoo</a></li>
+                <li>
+                    <a href="../../docs/general/zo_location.html">Ubicacion</a></li>
+                <li>
+                    <a href="../../docs/general/zo_description.html">Animales Salvajes</a></li>
+                <li>
+                    <a href="../../docs/general/zo_contact.html">Contactanos</a></li>
+                <li>
+                    <a href="../../docs/general/zo_sabias.html">Sabias Que</a></li>
+                <li>
+                    <a href="../../docs/general/zo_description_aqua.html">Animlaes Aquarium</a></li>
+                <li>
+                    <a href="../../docs/general/zo_events.html">Eventos & Actividades</a></li>
+                <li>
+                    <a href="../../docs/general/zo_bookings.html">Reservas</a></li>
+            </ul>
+        </nav>
+    </aside>
     <!-- 1er Section 
         7. Agregar 
          7.1.   2 section 
          7.2    2 aside
          7.3    2 article-->
+    <div class="div_contenedor_prin">
+        <div class="div_izq_nav">
+            <aside id="nav_izq">
+                <h3 id="nave1">Navegacion entre las secciones</h3>
+                <ol class="list_nav">
+                    <li>
+                        <a class="a_apli" href="#k1">Cosas Interezantes</a>
+                    </li>
+                    <li>
+                        <a class="a_apli" href="#eve2">Lo que no sabias</a>
+                    </li>
+                </ol>
+            </aside>
+        </div>
 
-    <h3 id="nave1">Navegacion entre las secciones</h3>
-    <ol>
-        <li>
-            <a href="#k1">Cosas Interezantes</a>
-        </li>
-        <li>
-            <a href="#eve2">Lo que no sabias</a>
-        </li>
-    </ol>
+        <div class="div_derec_nav">
+            <div class="div_sec_1 add_scroll">
+                <header>
+                    <h3 id="k1">What You Dont Know</h3>
+                </header>
+                <article>
+                    <h2>Informacion que alucionaras</h2>
 
-    <section>
-        <header>
-            <h3 id="k1">What You Dont Know</h3>
-        </header>
-        <article>
-            <h2>Informacion que alucionaras</h2>
+                    <img src="../../imagenes/imgs_sabias/photo1.jpg" alt="Locations" width="500" />
 
-            <img src="../../imagenes/imgs_sabias/photo1.jpg" alt="Locations" width="500" />
+                    <p><strong> Tu sabias eso </strong> you can visit and enjoy each place that we offert you, with place that you have never seen, so you have to visit inspite of corona virus !!!
+                    </p>
 
-            <p><strong> Tu sabias eso </strong> you can visit and enjoy each place that we offert you, with place that you have never seen, so you have to visit inspite of corona virus !!!
-            </p>
+                    <h3><i>Sigue leyendo para saber mas </i></h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sed unde at mollitia, hic dicta consequuntur eligendi, repellat in omnis laborum eum? Sequi, quod obcaecati praesentium illo animi saepe repudiandae optio et sapiente
+                        rem, repellat iusto vitae, voluptatum molestiae odit? Eum dolore laboriosam aperiam nesciunt eius excepturi adipisci ducimus obcaecati, minima eligendi deserunt ipsam quo? Vero in quam fugit architecto unde aliquid explicabo officiis
+                        suscipit esse, vel voluptate cum temporibus eius, non fugiat quidem iusto nisi tenetur repudiandae velit alias? Corrupti dolorum praesentium sunt debitis, illo exercitationem dignissimos, ex harum odit voluptatem mollitia minima
+                        magnam molestias est, optio dolor ipsum? Consequatur perferendis, nemo nulla tempora mollitia dolore nostrum fuga corrupti non enim voluptates culpa impedit. Laudantium rem aliquid expedita cupiditate ducimus incidunt, pariatur
+                        recusandae tenetur ex, quo alias atque! Nemo facere, tenetur aperiam, veritatis reprehenderit consectetur eius praesentium eligendi, ullam vero repellat at soluta porro error numquam nihil assumenda. Nesciunt sunt distinctio animi
+                        error. Cumque, quis tenetur, sit nesciunt libero natus ab iure voluptate facere volumagnam itaque eaque fugit animi consequatur odio velit? Eaque, animi odio sint commodi explicabo ipsum incidunt fuga eligendi iusto! <em>Natural Park Zoo es muy importante la naturaleza</em>
+                    </p>
+                </article>
 
-            <h3><i>Sigue leyendo para saber mas </i></h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sed unde at mollitia, hic dicta consequuntur eligendi, repellat in omnis laborum eum? Sequi, quod obcaecati praesentium illo animi saepe repudiandae optio et sapiente rem,
-                repellat iusto vitae, voluptatum molestiae odit? Eum dolore laboriosam aperiam nesciunt eius excepturi adipisci ducimus obcaecati, minima eligendi deserunt ipsam quo? Vero in quam fugit architecto unde aliquid explicabo officiis suscipit
-                esse, vel voluptate cum temporibus eius, non fugiat quidem iusto nisi tenetur repudiandae velit alias? Corrupti dolorum praesentium sunt debitis, illo exercitationem dignissimos, ex harum odit voluptatem mollitia minima magnam molestias
-                est, optio dolor ipsum? Consequatur perferendis, nemo nulla tempora mollitia dolore nostrum fuga corrupti non enim voluptates culpa impedit. Laudantium rem aliquid expedita cupiditate ducimus incidunt, pariatur recusandae tenetur ex, quo
-                alias atque! Nemo facere, tenetur aperiam, veritatis reprehenderit consectetur eius praesentium eligendi, ullam vero repellat at soluta porro error numquam nihil assumenda. Nesciunt sunt distinctio animi error. Cumque, quis tenetur, sit
-                nesciunt libero natus ab iure voluptate facere volumagnam itaque eaque fugit animi consequatur odio velit? Eaque, animi odio sint commodi explicabo ipsum incidunt fuga eligendi iusto! <em>Natural Park Zoo es muy importante la naturaleza</em>
-            </p>
-        </article>
+                <aside>
+                    <h3>Visita siempre este lugar para conocer Mas</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione
+                        at non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
+                </aside>
+                <article>
+                    <h2>Que tal te parece esta seccion?</h2>
+                    <img src="../../imagenes/imgs_sabias/photo2.jpg" alt="tel2" />
+                    <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus
+                        nobis magnam repudiandae recusandae nulla aspernatur!
+                    </p>
+                </article>
 
-        <aside>
-            <h3>Visita siempre este lugar para conocer Mas</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione at
-                non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
-        </aside>
-        <article>
-            <h2>Que tal te parece esta seccion?</h2>
-            <img src="../../imagenes/imgs_sabias/photo2.jpg" alt="tel2" />
-            <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus nobis
-                magnam repudiandae recusandae nulla aspernatur!
-            </p>
-        </article>
+                <aside>
+                    <h3>Puedes ver mas articulos abajo</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti tempora cumque, sint libero eum qui, adipisci ut in alias itaque, ipsum iusto cupiditate aliquid explicabo laborum repellendus eveniet corporis!</p>
+                </aside>
+                <a href="#nave1">volver al Menu de Navegacion</a>
+            </div>
 
-        <aside>
-            <h3>Puedes ver mas articulos abajo</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti tempora cumque, sint libero eum qui, adipisci ut in alias itaque, ipsum iusto cupiditate aliquid explicabo laborum repellendus eveniet corporis!</p>
-        </aside>
-        <a href="#nave1">volver al Menu de Navegacion</a>
-    </section>
+            <div class="div_sec_1 add_scroll">
+                <header>
+                    <h3 id="eve2">Conoce Mas 2.0</h3>
+                </header>
+                <article>
+                    <h2>Algunos no podemos hacer todo</h2>
+                    <img src="../../imagenes/imgs_sabias/photo3.jpg" alt="img1 " />
+                    <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus
+                        nobis magnam repudiandae recusandae nulla aspernatur!
+                    </p>
+                </article>
 
-    <!-- 2do Section   -->
-    <section>
-        <header>
-            <h3 id="eve2">Conoce Mas 2.0</h3>
-        </header>
-        <article>
-            <h2>Algunos no podemos hacer todo</h2>
-            <img src="../../imagenes/imgs_sabias/photo3.jpg" alt="img1 " />
-            <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus nobis
-                magnam repudiandae recusandae nulla aspernatur!
-            </p>
-        </article>
+                <aside>
+                    <h3>Abajo encontras Cosas mas interesantes</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione
+                        at non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
+                </aside>
 
-        <aside>
-            <h3>Abajo encontras Cosas mas interesantes</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione at
-                non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
-        </aside>
+                <article>
+                    <h2>Y esto Que tal</h2>
+                    <img src="../../imagenes/imgs_sabias/photo4.jpg" alt="img2 " />
+                    <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus
+                        nobis magnam repudiandae recusandae nulla aspernatur!
+                    </p>
+                </article>
+                <aside>
+                    <h3>Visita constantemente para Mas informacion como Esta</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione
+                        at non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
 
-        <article>
-            <h2>Y esto Que tal</h2>
-            <img src="../../imagenes/imgs_sabias/photo4.jpg" alt="img2 " />
-            <p>Puedes visitar cada lugar y encontrar maravillos especies Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur enim illo delectus quidem excepturi, obcaecati aliquid adipisci magni, vitae, iste non nihil doloribus nobis
-                magnam repudiandae recusandae nulla aspernatur!
-            </p>
-        </article>
-        <aside>
-            <h3>Visita constantemente para Mas informacion como Esta</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sapiente architecto quia fugit magnam accusantium pariatur! Adipisci amet atque fugit commodi distinctio debitis a. Quia tempore, beatae amet quae corporis optio, ratione at
-                non consequatur repellendus cum adipisci eveniet, officia voluptates quas expedita deleniti? Veritatis sed provident in nostrum molestias.</p>
+                </aside>
+                <a href="#nave1 ">volver al Menu de Navegacion</a>
+            </div>
+        </div>
+    </div>
 
-        </aside>
-        <a href="#nave1 ">volver al Menu de Navegacion</a>
-    </section>
 
     <!--6. Incluir en todas las paginas Informacion del estudiante
         6.1. Nombres completos 
@@ -155,9 +193,26 @@
         6.4. Utlizar Etiqueta telefono de manera internacional
         6.5. Utilizar Caracter mas leyenda Todos derechos reservados-->
     <footer>
-        <span>John Henry Chiqui Coraizaca-Asce &nbsp; &#8226; Development Team & Giro &#8226;</span>
-        <a href="mailto:johnhenrychiqui@gmail.com">johnhenrychiqui@gmail.com</a>
-        <a href="tel:+593999922692">(+593) 099-992-2692</a> &#169;Todos los Derechos Reservados &#169;Todos los Derechos Reservados
+        <div class="div_foo">
+            <div class="div_foo_sec">
+                <div class="div_botons">
+                    <img class="imgs_botns_size" src="/imagenes/faceb.png" alt="Facebook">
+                </div>
+                <div class="div_botons">
+                    <img class="imgs_botns_size" src="/imagenes/instagram.png" alt="Facebook">
+                </div>
+                <div class="div_yout">
+                    <img class="img_you" src="/imagenes/youtube.png" alt="">
+                </div>
+            </div>
+            <div class="div_foo_sec">
+                <span>John Henry Chiqui Coraizaca-Asce &nbsp; &#8226; Development Team & Giro &#8226;</span>
+            </div>
+            <div class="div_foo_sec">
+                <a href="mailto:johnhenrychiqui@gmail.com">johnhenrychiqui@gmail.com</a>
+                <a href="tel:+593999922692">(+593) 099-992-2692</a> &#169;Todos los Derechos Reservados &#169;Todos los Derechos Reservados
+            </div>
+        </div>
     </footer>
 
 </body>

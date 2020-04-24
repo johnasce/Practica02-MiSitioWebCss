@@ -1,0 +1,273 @@
+/* 1. Todo el bodu */
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #558B2F;
+}
+
+
+/* 2. Cabecera */
+
+.header_dimen {
+    width: 100%;
+    height: 15%;
+    background-color: #DCE775;
+}
+
+.div_1 {
+    width: 100%;
+    height: 15%;
+    background-color: #558B2F;
+}
+
+.div_1_p1 {
+    width: 30%;
+    height: 15%;
+    float: left;
+    text-align: center;
+}
+
+.img_p1 {
+    width: 40%;
+    height: 15%;
+}
+
+.div_1_inp {
+    width: 40%;
+    height: 15%;
+    float: left;
+    text-align: center;
+}
+
+.div_inp_size {
+    width: 90%;
+    margin-top: 20%;
+}
+
+.div_1_con {
+    width: 26%;
+    height: 15%;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #DCE775;
+}
+
+.iconos {
+    width: 42%;
+    margin-top: 18%;
+}
+
+
+/* 3. Menu*/
+
+aside {
+    clear: both;
+}
+
+#menu {
+    width: 98%;
+    height: 10%;
+    margin: 0%;
+    padding: 1% 1% 1% 1%;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #DCE775;
+}
+
+#lista_desordenada {
+    display: block;
+    list-style: none;
+    overflow: hidden;
+}
+
+aside#menu nav ul#lista_desordenada li {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+aside#menu nav ul#lista_desordenada li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 1px 2px 2px 2px;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+aside#menu nav ul#lista_desordenada li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 1px 2px 2px 2px;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+aside#menu nav ul#lista_desordenada li a:hover {
+    background-color: #4CAF50;
+    /*color: rgb(34, 86, 146);*/
+    color: black;
+}
+
+.list_nav {
+    display: block;
+    list-style: none;
+    overflow: hidden;
+}
+
+.a_apli {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+.a_apli:hover {
+    background-color: #4CAF50;
+    /*color: rgb(34, 86, 146);*/
+    color: black;
+}
+
+
+/* 4 encolunammientos */
+
+.div_contenedor_prin {
+    width: 100%;
+    height: 600px;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    background-color: #A5D6A7;
+}
+
+.div_izq_nav {
+    width: 28%;
+    height: 200px;
+    /*border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;*/
+    background-color: #A5D6A7;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+.div_derec_nav {
+    width: 65%;
+    height: 45%;
+    float: left;
+}
+
+.div_sec_1 {
+    width: 100%;
+    height: 25%;
+    /*padding: 3%;*/
+    border: solid #FFA726 1px;
+}
+
+#div_colum_container {
+    width: 98%;
+    height: 600px;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+    background-color: #A5D6A7;
+}
+
+.add_scroll {
+    overflow-x: scroll;
+    width: 100%;
+    height: 100%;
+    scrollbar-color: purple;
+    border-radius: 20px;
+}
+
+.div_ca_colum {
+    width: 47%;
+    height: 50%;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #A5D6A7;
+    /*float: left;*/
+    padding: 1%;
+}
+
+footer {
+    clear: both;
+}
+
+
+/* 8. para el footer*/
+
+.div_foo {
+    width: 100%;
+    height: 90px;
+    padding: 4%;
+    margin-top: 3%;
+    background-color: #FFE0B2;
+}
+
+.div_foo_sec {
+    width: 25%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.div_botons {
+    width: 50%;
+    height: 30%;
+    float: left;
+    display: inline;
+}
+
+.imgs_botns_size {
+    display: inline;
+    width: 15%;
+    height: 80%;
+    /*margin: 0%;*/
+    padding: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div_yout {
+    width: 100%;
+    height: 80%;
+}
+
+.img_you {
+    display: inline;
+    width: 60%;
+    height: 90%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+}
+
+h2,
+h3 {
+    font-family: 'Comic Neue', cursive;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
