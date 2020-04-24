@@ -160,7 +160,6 @@ aside#nav_izq ol#ol_nav_iz li a {
     overflow-x: scroll;
     width: 60%;
     height: 2%;
-    scrollbar-color: purple;
     border-radius: 20px;
 }
 
@@ -183,7 +182,7 @@ aside#nav_izq ol#ol_nav_iz li a {
 }
 
 #section_2 {
-    float: r;
+    /*float: r;*/
     width: 63%;
     height: 400px;
     border: solid rgb(42, 175, 46) 2px;
