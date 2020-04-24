@@ -101,43 +101,86 @@ aside#menu nav ul#lista_desordenada li a {
     font-family: 'Lobster', cursive;
 }
 
+aside#menu nav ul#lista_desordenada li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 1px 2px 2px 2px;*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
 aside#menu nav ul#lista_desordenada li a:hover {
     background-color: #4CAF50;
     /*color: rgb(34, 86, 146);*/
     color: black;
 }
 
+.list_nav {
+    display: block;
+    list-style: none;
+    overflow: hidden;
+}
 
-/* 4 ha dos columnas */
+.a_apli {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
 
-.div_principal {
+.a_apli:hover {
+    background-color: #4CAF50;
+    /*color: rgb(34, 86, 146);*/
+    color: black;
+}
+
+
+/* 4 encolunammientos */
+
+.div_contenedor_prin {
     width: 100%;
     height: 600px;
     border: solid rgb(42, 175, 46) 2px;
     border-radius: 20px;
-    background-color: #DCE775;
-    padding: 2% 1% 2% 1%;
-    margin-right: 3%;
-}
-
-.div_secundarios {
-    width: 47%;
-    height: 98%;
-    float: left;
-    border-radius: 20px;
     background-color: #A5D6A7;
-    padding: 1%;
 }
 
-.div_vacio {
-    width: 2%;
-    height: 97%;
+.div_izq_nav {
+    width: 28%;
+    height: 200px;
+    /*border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;*/
+    background-color: #A5D6A7;
+    padding-left: 2%;
+    padding-right: 2%;
     float: left;
 }
 
-.section_colum1 {
+.div_derec_nav {
+    width: 65%;
+    height: 45%;
+    float: left;
+}
+
+.div_sec_1 {
     width: 100%;
-    height: 100%;
+    height: 25%;
+    /*padding: 3%;*/
+    border: solid #FFA726 1px;
+}
+
+#div_colum_container {
+    width: 98%;
+    height: 600px;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+    background-color: #A5D6A7;
 }
 
 .add_scroll {
@@ -148,104 +191,15 @@ aside#menu nav ul#lista_desordenada li a:hover {
     border-radius: 20px;
 }
 
-footer {
-    clear: both;
-}
-
-
-/* 5. division de iamgenes */
-
-.div_logitos {
-    width: 100%;
-    height: 160px;
-    margin: 0%;
-    padding: 2%;
-    background-color: #B2EBF2;
-}
-
-.div_titulo {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-}
-
-.div_log_container {
-    width: 100%;
-    height: 100px;
-}
-
-.div_cad_imagen {
-    width: 12.5%;
-    height: 80%;
-    padding: 2%;
-    float: left;
-}
-
-.div_cada_img_size {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-}
-
-
-/* 6  Agregar foto y contenido*/
-
-.div_rate {
-    width: 100%;
-    height: 150px;
-    padding: 2%;
-    margin: 0%;
-}
-
-.div_rate_img {
-    width: 28%;
-    height: 80%;
-    float: left;
-    text-align: center;
-}
-
-.div_rate_text {
-    width: 68%;
+.div_ca_colum {
+    width: 47%;
     height: 50%;
-    float: left;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-}
-
-.size_text {
-    text-size-adjust: initial;
-    text-align: center;
-}
-
-
-/* 7. imganes */
-
-.div_prin {
-    width: 100%;
-    height: 150px;
-    padding: 2%;
-    margin: 0%;
-    background-color: #C5CAE9;
-}
-
-.div_secund {
-    width: 20%;
-    height: 80%;
-    float: left;
-    text-align: center;
-    padding-left: 8%;
-    padding-right: 5%;
-}
-
-.div_sec_im_size {
-    width: 98%;
-    height: 100%;
-    float: left;
-    text-align: justify;
-    display: block;
+    border: solid rgb(42, 175, 46) 2px;
+    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #A5D6A7;
+    /*float: left;*/
+    padding: 1%;
 }
 
 footer {
@@ -311,4 +265,5 @@ h3 {
 
 p {
     font-family: 'Indie Flower', cursive;
+    font-size: 18px;
 }
